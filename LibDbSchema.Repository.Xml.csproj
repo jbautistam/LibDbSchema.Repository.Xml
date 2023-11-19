@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Bau.Libraries.LibDbSchema.Repository.Xml</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\LibHelper\src\LibHelper.csproj" />
+    <ProjectReference Include="..\..\..\Common\LibMarkup\src\LibMarkup.csproj" />
+    <ProjectReference Include="..\..\DataBaseProviders\src\LibDbProviders.Base\LibDbProviders.Base.csproj" />
+  </ItemGroup>
+
+</Project>
